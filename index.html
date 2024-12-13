@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="music-app">
+    <h1>Music Player</h1>
+    <audio id="audio"></audio>
+    <div class="controls">
+      <button id="prev">⏮️</button>
+      <button id="play">▶️</button>
+      <button id="next">⏭️</button>
+    </div>
+    <div class="volume">
+      <label for="volume">Volume:</label>
+      <input type="range" id="volume" min="0" max="1" step="0.1">
+    </div>
+    <div class="progress-container">
+      <div id="progress"></div>
+    </div>
+    <ul id="song-list">
+      <li data-src="apt.mp3" data-title="APT" data-artist="ROSE, Bruno Mars" data-album="Album 1">APT</li>
+      <li data-src="birds-of-a-feather.mp3" data-title="Birds of the feather" data-artist="Billie Eilish" data-album="Album 2">Birds of the Feather</li>
+      <li data-src="die-with-a-smile.mp3" data-title="Die with a Smile" data-artist="Lady Gaga, Bruno Mars" data-album="Album 3">Die with a smile</li>
+      <li data-src="diet-mountain-dew.mp3" data-title="Diet mountain Dew" data-artist="Lana Del Rey" data-album="Album 3">Diet Mountain Dew</li>
+    </ul>
+    <div id="song-details">
+      <h2 id="song-title">Song Title</h2>
+      <p id="song-artist">Artist: Unknown</p>
+      <p id="song-album">Album: Unknown</p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+ 
