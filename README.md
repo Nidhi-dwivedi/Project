@@ -34,7 +34,7 @@ Follow the steps below to set up and use this music player on your local machine
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/yourusername/music-player.git
+   git clone https://github.com/Nidhi-dwivedi/music-player-app.git
     ```
    
 2. Navigate to the project directory:
